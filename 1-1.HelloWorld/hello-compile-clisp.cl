@@ -1,3 +1,4 @@
+#!/usr/bin/clisp -norc
 #!/usr/local/bin/clisp -norc
 
 (format t "~a~%" "compiled❓")

@@ -1,4 +1,5 @@
 #!/usr/bin/sbcl --script
+;#!/usr/local/bin/sbcl --script
 
 (format t "~a~%" "整数同士の演算")
 (format t "~a~%" (+ 2 7))

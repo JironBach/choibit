@@ -1,4 +1,5 @@
 #!/usr/bin/clisp -norc
+;#!/usr/local/bin/clisp -norc
 
 (defun calc();str)
 	(format t "~a~%" "整数同士の演算")

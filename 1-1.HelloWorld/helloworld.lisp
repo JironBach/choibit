@@ -1,4 +1,5 @@
-#!/usr/local/bin/sbcl --script
+#!/usr/bin/sbcl --script
+;#!/usr/local/bin/sbcl --script
 
 (defun hello (str)
   (format t "~a~%" str)

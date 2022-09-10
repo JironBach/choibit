@@ -1,4 +1,5 @@
 #!/usr/bin/sbcl --script
+;#!/usr/local/bin/sbcl --script
 
 (defun calc();str)
   (format t "~a~%" "整数同士の演算")

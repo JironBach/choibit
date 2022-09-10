@@ -1,7 +1,7 @@
-#!/usr/bin/ruby
+#!/usr/bin/env ruby
+#!/usr/local/bin/ruby
 
-puts ("整数同士の演算");
-puts (2 + 7);
+puts ("整数の演算");
 puts (2 - 7);
 puts (2 * 7);
 puts (2 / 7);

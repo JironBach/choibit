@@ -1,4 +1,5 @@
-#!/usr/local/bin/clisp -norc
+#!/usr/bin/clisp -norc
+;#!/usr/local/bin/clisp -norc
 
 (defun jironcond (var)
   (block :jironcond

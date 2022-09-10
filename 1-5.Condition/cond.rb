@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 #!/usr/local/bin/ruby
 
 def condition (var)

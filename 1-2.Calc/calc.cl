@@ -1,4 +1,5 @@
-#!/usr/local/bin/clisp -norc
+#!/usr/bin/clisp -norc
+;#!/usr/local/bin/clisp -norc
 
 (format t "~a~%" "整数同士の演算")
 (format t "~a~%" (+ 2 7))
