@@ -18,9 +18,11 @@
       (print '3でも7でも割り切れない))))
 
 ;必要引数チェック
-;whenはifと違ってブロックになる。prognが不要
-(when (= 0 (length *args*))
-  (print '引数を数値で指定してください)
+(defun paramchk()
+  ;whenはifと違ってブロックになる。prognが不要
+  (when (= 0 (length *args*))
+    (return-from paramchk '引数を数値で指定してください)))
+(if (print (paramchk))
   (quit))
 ;引数をセット
 (setf arg0 (parse-integer (nth 0 *args*)))

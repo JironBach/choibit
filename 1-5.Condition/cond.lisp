@@ -19,18 +19,24 @@
       (print '3でも7でも割り切れない))))
 
 ;必要引数チェック
-;whenはifと違ってブロックになる。prognが不要
 (print (length sb-ext:*posix-argv*))
-(print (nth 1 sb-ext:*posix-argv*))
 #|
+(defun paramchk()
+  ;whenはifと違ってブロックになる。prognが不要
+  (when (<= 1 (length sb-ext:*posix-argv*))
+    (return-from paramchk '引数を数値で指定してください)
+    (quit)))
+(if (print (paramchk))
+  (quit))
 (if (<= 1 (length sb-ext:*posix-argv*))
   (progn
     (print '引数を数値で指定してください)
     (quit)))
 |#
+;終了してたらパラメータを表示
+(print (nth 1 sb-ext:*posix-argv*))
 ;引数をセット
 (defparameter *arg1* (parse-integer (nth 1 sb-ext:*posix-argv*)))
 (print *arg1*)
 (jironcond *arg1*)
-
 
