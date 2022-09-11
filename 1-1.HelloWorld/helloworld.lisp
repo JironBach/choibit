@@ -1,5 +1,5 @@
-#!/usr/local/bin/sbcl --script
-;#!/usr/bin/sbcl --script
+#!/usr/bin/env sbcl --script
+;#!/usr/local/bin/sbcl --script
 
 (defun hello (str)
   (print str)
