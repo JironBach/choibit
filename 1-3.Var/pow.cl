@@ -1,6 +1,9 @@
-#!/usr/bin/clisp -norc
+#!/usr/local/bin/clisp
 ;#!/usr/local/bin/clisp -norc
+;#!/usr/bin/clisp -norc
 
-(format t "~a~%" (expt 2 3))
-(format t "~a~%" (expt 2.2 3.3))
+(print (expt 2 3))
+(print (expt 2.2 3.3))
+;不具合調査
+(print (expt 1.03 30))
 

@@ -1,5 +1,6 @@
-#!/usr/bin/clisp -norc
-#!/usr/local/bin/clisp -norc
+#!/usr/bin/env clisp
+;#!/usr/local/bin/clisp -norc
+;#!/usr/bin/clisp -norc
 
 (format t "~a~%" "compiled❓")
 

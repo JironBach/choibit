@@ -9,6 +9,7 @@ time ./HelloWorld.sh
 
 #run sbcl
 time /usr/local/bin/sbcl --script ./helloworld.lisp
+#time ./helloworld.lisp
 time ./hello-sbcl
 #run clisp
 time ./helloworld.cl

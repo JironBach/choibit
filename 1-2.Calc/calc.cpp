@@ -44,7 +44,7 @@ int main() {
   cout << "\n";
   //string restfstr = to_string(2.0 % 7.0);
   //cout << restfstr;
-  cout << "\n-------\n";
+  cout << "-------\n";
 
   cout << "int型の最大値: " << INT_MAX;
   cout << "\n";
@@ -52,7 +52,8 @@ int main() {
   cout << "\n";
   string maxistr = to_string(INT_MAX + 1);
   cout << maxistr;
-  cout << "\n-------\n";
+  cout << "\n";
+  cout << "-------\n";
       
   cout << "int型の最小値: " << INT_MIN;
   cout << "\n";
@@ -60,7 +61,8 @@ int main() {
   cout << "\n";
   string ministr = to_string(INT_MIN - 1);
   cout << ministr;
-  cout << "\n-------\n";
+  cout << "\n";
+  cout << "-------\n";
 
   //この関数は最期に呼ぶこと
   //study_console_ln();

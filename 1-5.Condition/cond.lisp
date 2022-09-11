@@ -1,5 +1,5 @@
-#!/usr/bin/sbcl --script
-;#!/usr/local/bin/sbcl --script
+#!/Users/jironbach/bin/rosql --script
+;#!/usr/bin/sbcl --script
 
 ;sbclの場合は大域変数でないとwarningが出る
 (defparameter *divflag* nil)
@@ -20,11 +20,17 @@
 
 ;必要引数チェック
 ;whenはifと違ってブロックになる。prognが不要
-(when (< 2 (length sb-ext:*posix-argv*))
-  (print '引数を数値で指定してください)
-  (quit))
+(print (length sb-ext:*posix-argv*))
+(print (nth 1 sb-ext:*posix-argv*))
+#|
+(if (<= 1 (length sb-ext:*posix-argv*))
+  (progn
+    (print '引数を数値で指定してください)
+    (quit)))
+|#
 ;引数をセット
 (defparameter *arg1* (parse-integer (nth 1 sb-ext:*posix-argv*)))
 (print *arg1*)
 (jironcond *arg1*)
+
 

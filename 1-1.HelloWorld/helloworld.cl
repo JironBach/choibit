@@ -1,9 +1,11 @@
-#!/usr/bin/clisp -norc
+#!/usr/bin/env clisp
 ;#!/usr/local/bin/clisp -norc
+;#!/usr/bin/clisp -norc
 
 (defun hello (str)
-	(format t "~a~%" str)
+  (print str)
+  (format t "~a~%" str)
 )
 
-(hello "Hello World!!!🐩 ")
+(hello "Hello World!!!🐩❗️")
 
