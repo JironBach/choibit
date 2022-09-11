@@ -1,4 +1,4 @@
-#!/Users/jironbach/bin/rosql --script
+#!/usr/local/bin/sbcl --script
 ;#!/usr/bin/sbcl --script
 
 ;sbclの場合は大域変数でないとwarningが出る

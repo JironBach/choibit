@@ -1,5 +1,5 @@
-#!/usr/bin/sbcl --script
-;#!/usr/local/bin/sbcl --script
+#!/usr/local/bin/sbcl --script
+;#!/usr/bin/sbcl --script
 
 (format t "~a~%" "compiled❓ ")
 

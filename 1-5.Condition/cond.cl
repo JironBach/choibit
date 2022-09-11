@@ -1,5 +1,5 @@
-#!/usr/local/bin/clisp
-;#!/usr/local/bin/clisp -norc
+#!/usr/bin/env clisp
+;#!/usr/local/bin/clisp
 ;#!/usr/bin/clisp -norc
 
 (defun jironcond (var)
