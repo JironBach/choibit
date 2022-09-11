@@ -1,4 +1,4 @@
-#!/usr/local/bin/clisp
+#!/usr/bin/env clisp
 ;#!/usr/local/bin/clisp -norc
 ;#!/usr/bin/clisp -norc
 
