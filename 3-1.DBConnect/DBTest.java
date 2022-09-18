@@ -4,7 +4,7 @@ public class DBTest{
   public static void main(String[] args)throws Exception {
     String driver = "org.postgresql.Driver";
     Class.forName(driver);
-    String url = "jdbc:postgresql://localhost:5432/practice";
+    String url = "jdbc:postgresql://192.168.0.51:5432/practice";
     String password = System.getenv("LOCAL_DB_PASSWORD");
     Connection conn = null;
     try {
