@@ -52,7 +52,7 @@ local.properties
 .loadpath
 .recommenders
 
-/eclipse/shimoda/gradle-7*
+/eclipse/shimoda/gradle-7.5.1*
 
 # External tool builders
 # .externalToolBuilders/
@@ -103,3 +103,4 @@ local.properties
 # # Typically, this file would be tracked if it contains build/dependency configurations:
 # #.project
 #
+
