@@ -54,6 +54,8 @@ local.properties
 
 *.bk*
 /eclipse/shimoda/gradle-7.5.1*
+wrapper/
+caches/
 
 # External tool builders
 # .externalToolBuilders/
