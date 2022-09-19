@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Shimoda2Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(Shimoda2Application.class, args);
+        SpringApplication.run2(Shimoda2Application.class, args);
     }
 
     @GetMapping("/hello2/{name}")
