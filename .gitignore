@@ -40,7 +40,7 @@
 *.o
 
 #eclipse
-.metadata
+#.metadata
 bin/
 tmp/
 *.tmp
