@@ -52,6 +52,7 @@ local.properties
 .loadpath
 .recommenders
 
+*.bk*
 /eclipse/shimoda/gradle-7.5.1*
 
 # External tool builders

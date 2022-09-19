@@ -2,16 +2,6 @@ package com.example.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-<<<<<<< HEAD
-
-@SpringBootApplication
-public class ShimodaApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(ShimodaApplication.class, args);
-	}
-
-=======
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -35,5 +25,4 @@ public class ShimodaApplication {
     return String.format("Hello %s!", name);
     }
     
->>>>>>> b2b2fb72208843810b4bcd5ddbc6d7ac78733560
 }
