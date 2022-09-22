@@ -15,14 +15,14 @@ public class Shimoda3Application {
 		SpringApplication.run(Shimoda3Application.class, args);
 	}
 
-  @GetMapping("/hello/{name}")
-  public String hello_path(@PathVariable("name") String name) {// String name) {
-  	return String.format("Hello %s!", name);
-  }
-
-  @GetMapping("/hello")
-  public String hello_req(@RequestParam(value = "name", defaultValue = "World") String name) {
-  return String.format("Hello %s!", name);
-  }
+	@GetMapping("/hello/{name}")
+	public String hello_path(@PathVariable("name") String name) {// String name) {
+		return String.format("Hello %s!", name);
+	}
+	
+	@GetMapping("/hello")
+		public String hello_req(@RequestParam(value = "name", defaultValue = "World") String name) {
+		return String.format("Hello %s!", name);
+	}
 
 }
