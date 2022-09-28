@@ -59,6 +59,7 @@ caches/
 /lib/j*.jar
 /lib/m*.jar
 /lib/s*.jar
+/lib/s*.zip
 /lib/t*.jar
 /lib/apache-maven-3.8.6/*
 /lib/pring-framework-5.3.9/*
