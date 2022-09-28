@@ -21,4 +21,3 @@ end
 @var = ARGV[0]
 puts '引数を数値で指定してください' if @var.nil?
 condition(@var.to_i)
-

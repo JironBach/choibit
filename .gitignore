@@ -56,6 +56,12 @@ local.properties
 /eclipse/shimoda/gradle-7.5.1*
 wrapper/
 caches/
+/lib/j*.jar
+/lib/m*.jar
+/lib/s*.jar
+/lib/t*.jar
+/lib/apache-maven-3.8.6/*
+/lib/pring-framework-5.3.9/*
 
 # External tool builders
 # .externalToolBuilders/
